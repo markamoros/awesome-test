@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="" alt="screenshot" width="370">
+    <img src="https://res.cloudinary.com/apideck/image/upload/v1629361285/marketplaces/ck8zpp2jb8j1u0b82q2wnrjx8/listings/ahvlr4sxqf0s4fp2zszx.png" alt="logo" width="582">
   </a>
 </div>
 
