@@ -9,8 +9,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This is my technical test for TalentBait.
 
 ### Built With
@@ -29,17 +27,28 @@ npm, node
   ```sh
   npm install
   npm start
+  npm test
   ```
 
+### API
+
+API routes:
+
+- GET sentence/:id
+- GET sentence/:id/translate
+- POST sentence
+- PUT sentence/:id
+- DELETE sentence/:id
+
+- GET sentence (This route allows orderBy, order, limit, startAt and endAt parameters)
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Setup project
-- [ ] Create scripts for exercise 1 and 2
-- [ ] Create unit tests for CRUD endpoints 
-- [ ] Create CRUD endpoints 
-- [ ] Create unit tests for translator endpoint
+- [x] Create scripts for exercise 1 and 2
+- [x] Create CRUD endpoints 
+- [ ] Create unit tests for CRUD endpoints
 - [ ] Create translator endpoint
 
 
@@ -55,7 +64,6 @@ Project Link: [https://gitlab.com/marks97/awesome-test](https://gitlab.com/marks
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
 [Nodejs.org]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
 [Nodejs-url]: https://nodejs.org
 [Express.com]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
