@@ -34,13 +34,19 @@ npm, node
 
 API routes:
 
-- GET sentence/:id
-- GET sentence/:id/translate
-- POST sentence
-- PUT sentence/:id
-- DELETE sentence/:id
+- GET /sentence/:id
+- GET /sentence/:id/translate
+- POST /sentence
+- PUT /sentence/:id
+- DELETE /sentence/:id
 
-- GET sentence (This route allows orderBy, order, limit, startAt and endAt parameters)
+- GET /sentence 
+(This route list all the DB data and allows orderBy, order, limit, startAt and endAt parameters).
+
+
+All the endpoints require an authentification header like the following:
+
+{ "Authorization": "BsNae57Es6N" }
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -48,8 +54,8 @@ API routes:
 - [x] Setup project
 - [x] Create scripts for exercise 1 and 2
 - [x] Create CRUD endpoints 
-- [ ] Create unit tests for CRUD endpoints
-- [ ] Create translator endpoint
+- [x] Create unit tests for CRUD endpoints
+- [x] Create translator endpoint
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
